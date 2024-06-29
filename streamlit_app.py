@@ -12,6 +12,7 @@ forums](https://discuss.streamlit.io).
 
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
+st.write("DB username:", st.secrets["db_user"])
 
 num_points = st.slider("Number of points in spiral", 2, 10000, 1100)
 num_turns = st.slider("Number of turns in spiral", 1, 300, 31)
